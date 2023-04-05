@@ -16,11 +16,20 @@ public class java02 {
         float a = x / z;
         float b = y / z;
         float c = a / b;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(x);
-        System.out.println(y);
-        System.out.println(z);
+        // System.out.println(a);
+        // System.out.println(b);
+        // System.out.println(c);
+        // System.out.println(x);
+        // System.out.println(y);
+        // System.out.println(z);
+        if ((x < z) && (y < z)) {
+
+        };
+        Object test = null;
+
+        if ((test != null) && test.toString().isEmpty()) {
+            System.out.println("test");
+        };
+
     }
 }
