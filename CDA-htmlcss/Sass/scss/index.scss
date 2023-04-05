@@ -1,0 +1,73 @@
+
+
+// Définir une variable pour la couleur de fond
+$couleur-de-fond: #ffb2b2;
+$cheese: #f2ff00;
+
+// Définir une variable pour la couleur du texte
+$text-color: #333;
+
+// Définir une classe pour le titre
+.title {
+    font-size: 24px;
+    color: $text-color;
+}
+
+// Définir une classe pour le paragraphe
+.paragraph {
+    font-size: 16px;
+    color: $text-color;
+}
+
+// Définir une classe pour le conteneur principal
+.container {
+    background-color: $couleur-de-fond;
+}
+
+/*
+@mixin button($codecontent: "",
+    $bgcolor: black,
+    $fgcolor: white,
+    $bordercolor: black,
+    $bordersize: 3px) {
+    @include glyphicon($codecontent);
+    text-transform: uppercase;
+    border: $bordersize solid $bordercolor;
+    padding: 10px 10px;
+    display: block;
+    margin: 0 15px;
+    color: $fgcolor;
+    background-color: $bgcolor;
+    text-decoration: none;
+
+    &:hover {
+        background-color: darken($bgcolor, 20%);
+        border-color: darken($bgcolor, 20%);
+        color: lighten($fgcolor, 20%);
+    }
+}
+*/
+
+@mixin button($cheese) {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    background-color: $cheese;
+
+    ul {
+        li {
+            a {
+                @include button()
+            }
+        }
+    }
+}
+
+header {
+    nav {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+}

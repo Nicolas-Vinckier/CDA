@@ -1,0 +1,155 @@
+²
+<!DOCTYPE html>
+<html lang="fr">
+<!-- Tête -->
+
+<head>
+    <!-- Le métaverse -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Nom de l'onglet -->
+    <title>CV html</title>
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="01test.css">
+</head>
+<!-- Feuille de style -->
+<style>
+    /* invisible */
+    .visually-hidden {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+    }
+
+    /* j'aime les div */
+    /* aligné horizontalement le formulaire */
+    #contact div {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* un peu inutile */
+    main {
+        width: 100%;
+    }
+
+    /* petite image */
+    img {
+        width: 10%;
+    }
+
+    /* meilleur rendu navigation */
+    li {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 2em;
+    }
+
+    /* centré cv nav et pdp */
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+</style>
+<!-- Corp -->
+
+<body>
+    <!-- Séparation -->
+    <header>
+        <!-- image "cv" avec un alt car c'est du texte -->
+        <img src="/3088d25a6b5ce839f7fca8dd7fdcd63e.webp" alt="CV">
+        <nav>
+            <ul>
+                <!-- menu navigation  -->
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#formation">Formation</a></li>
+            </ul>
+        </nav>
+        <!-- Photo de profil (pdp) donc pas de alt -->
+        <img src="pdp mini.png" alt="">
+    </header>
+    <!-- Séparation -->
+    <main>
+        <!-- Message de bienvenue lecteur d'écran -->
+        <p class="visually-hidden">Bienvenue sur le CV de Nicolas Vinckier</p>
+        <!-- Expériences -->
+        <section id="experiences">
+            <h2>Expériences</h2>
+            <p>2021 - Assistant informatique - (7 semaines) - L. P. Pierre Mendès France - Veynes </p>
+            <p>2019 – Assistant ingénieur spécialisé tests et déploiement – (4 semaines) - NetCeler - Veynes</p>
+            <p>2018 – Assistant aide technicien – (4 semaines) – ACI - Gap</p>
+            <p>2018 – Dépanneur – (4 semaines) - JPS - Gap</p>
+            <p>2017 – Assistant aide technicien – (4 semaines) - ACI - Gap</p>
+            <p>2017 – Chargé d’accueil – (4 semaines) - MSAP - Veynes</p>
+            <p>2017 – Assistant chargé de développement numérique - (4 semaines) - CdR – Veynes</p>
+        </section>
+        <!-- Compétences -->
+        <section id="competences">
+            <h2>Compétences pro</h2>
+            <p>Base de programation web</p>
+            <p>Maitrise des outils de Windows et Linux</p>
+            <p>Anglais niveau informatique</p>
+            <h2>Compétences autres</h2>
+            <p>Installation de serveur</p>
+            <p>Mise en place des services web (serveur)</p>
+            <p>Sécurisation de serveur (pare-feu : logiciel et matériel)</p>
+        </section>
+        <!-- Formations -->
+        <section id="formation">
+            <h2>Formations</h2>
+            <p>2024 - CDA | Diginamic</p>
+            <p>2023 - DevOps | Diginamic</p>
+            <p>2022 - E-commerce | Diginamic</p>
+            <p>2021 - Brevet technicien supérieur SIO , Services Informatiques aux organisations, option solutions
+                d’infrastructures, systèmes et réseaux (SISR)</p>
+            <p>2019 - Baccalauréat professionnel Systèmes Numériques (SN) option Réseaux Informatiques et Systèmes
+                Communicants (RISC) avec la mention Assez Bien</p>
+            <p>2018 - Brevet d’Études Professionnelles « Systèmes numériques » qualification « Langue vivante » Anglais
+                niveau A2 Plus</p>
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <!-- Dans la précédente formation on m'appelais divman -->
+                <!-- J'aime les div -->
+                <div>
+                    <!-- div -->
+                    <div>
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <!-- div -->
+                    <div>
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <!-- div -->
+                    <div>
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </div>
+                <!-- Fin des div -->
+            </form>
+        </section>
+    </main>
+    <!-- Pied -->
+    <footer>
+        <!-- là y a rien -->
+    </footer>
+</body>
+<!-- C'est la fin :( -->
+
+</html>

@@ -1,0 +1,38 @@
+.fond-orouge {
+  background-color: #ff4400;
+}
+
+.fond-gris {
+  background-color: #b9b9b9;
+}
+
+header section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header section nav {
+  display: flex;
+  align-items: center;
+}
+header section nav ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header section div {
+  display: flex;
+  flex-direction: row;
+}
+
+main section {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main section div {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

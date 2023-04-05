@@ -1,0 +1,45 @@
+.title {
+  font-size: 24px;
+  color: #333;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #333;
+}
+
+.container {
+  background-color: #ffb2b2;
+}
+
+/*
+@mixin button($codecontent: "",
+    $bgcolor: black,
+    $fgcolor: white,
+    $bordercolor: black,
+    $bordersize: 3px) {
+    @include glyphicon($codecontent);
+    text-transform: uppercase;
+    border: $bordersize solid $bordercolor;
+    padding: 10px 10px;
+    display: block;
+    margin: 0 15px;
+    color: $fgcolor;
+    background-color: $bgcolor;
+    text-decoration: none;
+
+    &:hover {
+        background-color: darken($bgcolor, 20%);
+        border-color: darken($bgcolor, 20%);
+        color: lighten($fgcolor, 20%);
+    }
+}
+*/
+header nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

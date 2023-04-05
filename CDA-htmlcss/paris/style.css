@@ -1,0 +1,154 @@
+/* 
+
+                                                                                 
+                                                                                 
+        CCCCCCCCCCCCClllllll                                                     
+     CCC::::::::::::Cl:::::l                                                     
+   CC:::::::::::::::Cl:::::l                                                     
+  C:::::CCCCCCCC::::Cl:::::l                                                     
+ C:::::C       CCCCCC l::::l   aaaaaaaaaaaaa       ssssssssss       ssssssssss   
+C:::::C               l::::l   a::::::::::::a    ss::::::::::s    ss::::::::::s  
+C:::::C               l::::l   aaaaaaaaa:::::a ss:::::::::::::s ss:::::::::::::s 
+C:::::C               l::::l            a::::a s::::::ssss:::::ss::::::ssss:::::s
+C:::::C               l::::l     aaaaaaa:::::a  s:::::s  ssssss  s:::::s  ssssss 
+C:::::C               l::::l   aa::::::::::::a    s::::::s         s::::::s      
+C:::::C               l::::l  a::::aaaa::::::a       s::::::s         s::::::s   
+ C:::::C       CCCCCC l::::l a::::a    a:::::a ssssss   s:::::s ssssss   s:::::s 
+  C:::::CCCCCCCC::::Cl::::::la::::a    a:::::a s:::::ssss::::::ss:::::ssss::::::s
+   CC:::::::::::::::Cl::::::la:::::aaaa::::::a s::::::::::::::s s::::::::::::::s 
+     CCC::::::::::::Cl::::::l a::::::::::aa:::a s:::::::::::ss   s:::::::::::ss  
+        CCCCCCCCCCCCCllllllll  aaaaaaaaaa  aaaa  sssssssssss      sssssssssss    
+                                                                                 
+*/
+.navbar-nav .nav-link {
+    color: #1E385F;
+    font-weight: bold;
+}
+
+.navbar {
+    height: 100px;
+    font-size: 1.2em;
+}
+
+.logo-paris {
+    height: 1.5em;
+}
+
+.big-logo-paris {
+    height: 3em;
+}
+
+.couleur-gris {
+    background-color: #FCFCFD;
+}
+
+.couleur-bleuF {
+    background-color: #071F32;
+}
+
+.petite-margin {
+    margin: 1em;
+}
+
+.small {
+    font-size: 0.1rem;
+}
+
+.list-unstyled li a {
+    font-size: 0.7em !important;
+}
+
+.space-block {
+    margin-bottom: 2em;
+}
+
+.form-group {
+    display: flex;
+    flex: 1;
+}
+
+.form-control {
+    flex: 1;
+}
+
+.bi-geo-alt-fill {
+    color: rgb(0, 30, 255);
+}
+
+.bi-geo-alt-fill:hover {
+    color: rgb(0, 200, 255);
+}
+
+.texte-acces-rapide {
+    font-size: 1.5em;
+}
+
+
+
+
+
+/* Hover btn footer left
+
+  _                __   _       ______                   _                     _       _           
+ | |              / _| | |     |  ____|                 | |                   | |     | |          
+ | |        ___  | |_  | |_    | |__      ___     ___   | |_    ___   _ __    | |__   | |_   _ __  
+ | |       / _ \ |  _| | __|   |  __|    / _ \   / _ \  | __|  / _ \ | '__|   | '_ \  | __| | '_ \ 
+ | |____  |  __/ | |   | |_    | |      | (_) | | (_) | | |_  |  __/ | |      | |_) | | |_  | | | |
+ |______|  \___| |_|    \__|   |_|       \___/   \___/   \__|  \___| |_|      |_.__/   \__| |_| |_|
+                                                                                                   
+
+*/
+
+.btn-custom {
+    color: red;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-custom::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    transition: left 0.5s;
+}
+
+.btn-custom:hover::before {
+    left: 100%;
+}
+
+.btn-custom:hover {
+    color: white;
+    background-color: red;
+}
+
+
+/* 
+                      
+     ######    ######     
+     #::::#    #::::#     
+     #::::#    #::::#     
+######::::######::::######
+#::::::::::::::::::::::::#
+######::::######::::######
+     #::::#    #::::#     
+     #::::#    #::::#     
+######::::######::::######
+#::::::::::::::::::::::::#
+######::::######::::######
+     #::::#    #::::#     
+     #::::#    #::::#     
+     ######    ######     
+
+*/
+
+#ml {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 3em;
+}

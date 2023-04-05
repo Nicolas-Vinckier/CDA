@@ -1,0 +1,50 @@
+$gris: #b9b9b9;
+$orouge: #ff4400;
+
+.fond-orouge {
+    background-color: $orouge;
+}
+
+.fond-gris {
+    background-color: $gris;
+}
+
+header {
+    section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        nav {
+            display: flex;
+            align-items: center;
+
+            ul {
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                }
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+main {
+    section {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        div {
+            width: 50%;
+
+        }
+    }
+}
