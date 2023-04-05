@@ -10,6 +10,17 @@ public class java02 {
         // float variable4 = variable3;
         // System.out.println("Variable 3 : " + variable3);
         // System.out.println("Variable 4 : " + variable4);
-        
+        float x = 15;
+        float z = 0;
+        float y = -123;
+        float a = x / z;
+        float b = y / z;
+        float c = a / b;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
     }
 }
