@@ -1,35 +1,31 @@
 package Java.JAVA10;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class java10 {
     public static void main(String[] args) {
-        System.out.println("Saisissez 5 entiers séparés par un espace :");
-        Scanner entier = new Scanner(System.in);
+        System.out.println("Saisissez 5 entiers séparés par un espace :");// texte
+        Scanner entier = new Scanner(System.in); // explication en dessous
         // Scanner lis les entrées utilisateur
         // entier instance qui stoque les valeurs
         // crée une nouvelle instance de la classe Scanner qui lit les entrées
         // utilisateur à partir de la console
-        int[] tableau = new int[5];
-        int n = 0;
+        int[] tableau = new int[5];// initialise le tableau
+        // int n = 0;
 
-        for (int i = 0; i < tableau.length; i++) {
-            tableau[i] = entier.nextInt();
+        for (int i = 0; i < tableau.length; i++) { // tant que i est plus petit que la taille du tableau :
+            tableau[i] = entier.nextInt(); // l'index actuel i est désormais égal à la valeur utilisateur saisie
         }
-        ;
 
-        System.out.println("------------------------");
-        System.out.println("Le tableau est :");
+        System.out.println("------------------------");// juste de la décoration
+        System.out.println("Le tableau est :"); // texte
         // System.out.println(tableau);
         // on ne peut pas faire ça car on imprime l'emplacement mémoire
-        Arrays.sort(tableau);
-        for (int i = 0; i < tableau.length; i++) {
-        System.out.print(tableau[i] + " ");
-        }   
-         
-    
+        Arrays.sort(tableau);// range le tableau
+        for (int i = 0; i < tableau.length; i++) {// tant que i est plus petit que la taille du tableau :
+            System.out.print(tableau[i] + " ");// Permet d'afficher les éléments du tableau un par un sur la même ligne
+        }
 
     };
 };
