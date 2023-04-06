@@ -1,4 +1,5 @@
 package Java.JAVA10;
+
 import java.util.Scanner;
 
 public class java10 {
@@ -6,7 +7,10 @@ public class java10 {
         System.out.println("Saisissez 5 entiers séparés par un espace :");
         Scanner entier = new Scanner(System.in);
 
-        int[] tab = {entier};
+        int n = entier.nextInt();
+
+        System.out.println("------------------------");
+        System.out.println(n);
 
     }
 }
