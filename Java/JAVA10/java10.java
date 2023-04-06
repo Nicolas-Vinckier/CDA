@@ -6,11 +6,24 @@ public class java10 {
     public static void main(String[] args) {
         System.out.println("Saisissez 5 entiers séparés par un espace :");
         Scanner entier = new Scanner(System.in);
+        // Scanner lis les entrées utilisateur
+        // entier instance qui stoque les valeurs
+        // crée une nouvelle instance de la classe Scanner qui lit les entrées
+        // utilisateur à partir de la console
+        int[] tableau = new int[5];
+        int n = 0; 
+        int i = 0; 
 
-        int n = entier.nextInt();
+        while (i <= 5){
+            tableau[i] = entier.nextInt();
+            i++;
+        }
+        
+
 
         System.out.println("------------------------");
-        System.out.println(n);
+        System.out.println(tableau);
+
 
     }
 }
