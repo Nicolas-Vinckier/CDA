@@ -1,5 +1,7 @@
 package Java.JAVA10;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class java10 {
@@ -22,10 +24,12 @@ public class java10 {
         System.out.println("Le tableau est :");
         // System.out.println(tableau);
         // on ne peut pas faire ça car on imprime l'emplacement mémoire
-        // for (int i = 0; i < tableau.length; i++) {
-        //     System.out.print(tableau[i] + " ");
-        // }
-
+        Arrays.sort(tableau);
+        for (int i = 0; i < tableau.length; i++) {
+        System.out.print(tableau[i] + " ");
+        }   
+         
+    
 
     };
 };
