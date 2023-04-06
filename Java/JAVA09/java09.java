@@ -5,7 +5,7 @@ public class java09 {
         int[] tab = { 1, 5, 45, -1, 6, 8 };
         // int i = 0;
         int valeurMax = 0;
-        int valeurActuel = 0;
+        // int valeurActuel = 0;
 
         // while (i < tab.length) {
         // tab[i] = valeurActuel;

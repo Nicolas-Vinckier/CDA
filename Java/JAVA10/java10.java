@@ -11,22 +11,24 @@ public class java10 {
         // crée une nouvelle instance de la classe Scanner qui lit les entrées
         // utilisateur à partir de la console
         int[] tableau = new int[5];
-        int n = 0; 
-        int i = 0; 
+        int n = 0;
 
-        while (i <= 5){
+        for (int i = 0; i < tableau.length; i++) {
             tableau[i] = entier.nextInt();
-            i++;
         }
-        
-
+        ;
 
         System.out.println("------------------------");
-        System.out.println(tableau);
+        System.out.println("Le tableau est :");
+        // System.out.println(tableau);
+        // on ne peut pas faire ça car on imprime l'emplacement mémoire
+        // for (int i = 0; i < tableau.length; i++) {
+        //     System.out.print(tableau[i] + " ");
+        // }
 
 
-    }
-}
+    };
+};
 
 /*
  * JAVA10 : Trier un tableau d’entiers
